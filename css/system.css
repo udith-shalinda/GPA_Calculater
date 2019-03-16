@@ -1,0 +1,75 @@
+body{
+    margin-left: 0px;
+    margin-top: 0px;
+    background: white;
+}
+h1{
+    background: darkred;
+    padding: 20px;
+    color: blanchedalmond;
+    margin-left: 0px;
+    text-align: center;
+}
+
+
+.footer{
+    margin-top:1%;
+    background:darkred;
+    padding:.25%;
+    text-align: center;
+}
+#gpa{
+    background-image: linear-gradient(to left,black,gray);
+    color:white;
+    padding: 2%;
+    text-align: center;
+}
+.result{
+    display: inline;
+    font-size: 25px;
+}
+
+#gparesult{
+    font-size: 35px;
+    color: #D35400;
+    padding-left: 1%;
+}
+#no_subs{
+    background: #AED6F1;
+    padding: 2%;
+}
+.test{
+    display: inline;
+}
+#no_subs label{
+    color:darkblue;
+    font-family:monospace;
+    font-size: 20px;
+}
+#credit,#selectoption{
+    width:10%;
+    border: none;
+    border-radius: 5px;
+    padding:0.8%;
+}
+#no_subs button{
+    border:none;
+    padding:0.8%;
+    background:darkblue;
+    color:white;
+    margin-left: 1%;
+    border-radius: 5px;
+}
+ul li{
+    background: #F8F9F9;
+    padding: 8px;
+    
+}
+ul li:nth-child(odd){
+    background: #D7DBDD;
+}
+ul li span{
+    background:darkred;
+    padding: 8px 20px;
+    margin-left: 85%;
+}

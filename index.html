@@ -1,0 +1,55 @@
+
+<html>
+    <head>
+        <title>GPA Calculater</title>
+        <link rel="stylesheet" href="css/login.css" type="text/css">
+        <link rel="stylesheet" href="css/system.css" type="text/css">
+         
+    </head>
+    <body>
+        <header>
+            <h1>GPA Calculater</h1>
+        </header>
+        
+        <div class="content">
+            <div id='gpa'><div class='result'>GPA is</div> <div class='result' id='gparesult'>4.00</div></div>
+            <div id="no_subs">
+                    <label class='test'>grade : </label>
+                    <select id='selectoption' class='test'>
+                            <option value='4.00'>A+</option>
+                            <option value='4.00'>A</option>
+                            <option value='3.7'>A-</option>
+                            <option value='3.4'>B+</option>
+                            <option value='3.0'>B</option>
+                            <option value='2.7'>B-</option>
+                            <option value='2.4'>C+</option>
+                            <option value='2.0'>C</option>
+                            <option value='1.7'>C-</option>
+                            <option value='1.4'>D+</option>
+                            <option value='1'>D</option>
+                            <option value='0.7'>D-</option>
+                            <option value='0.4'>E</option>
+                            <option value='0'>-</option>
+                    </select>
+                    <label class='test'>credit : </label>
+                    <input type="text" name="credit" id='credit' class='test' placeholder="How many credits?">
+                    <button onclick='addelement()' class='test'>Enter</button>
+               
+                
+                <ul id='list'>
+                   
+                </ul>
+            </div>
+        </div>
+       
+        
+        
+        <div  class="footer">
+            <p>All Right recieved</p>
+        </div>
+       <script src="js/jquery.js"></script>
+         <script src="js/test.js"></script>
+       
+        
+    </body>
+</html>
